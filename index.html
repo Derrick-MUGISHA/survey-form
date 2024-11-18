@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
+    <title>Survey Form fro Travail Africa</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="form-header">
-            <h1>Survey Form</h1>
-            <p>Please take a moment to complete this survey</p>
+            <h1>Travial Africa Opportunity Survey</h1>
+            <p>Help Us understand your travael and job interest</p>
         </div>
         
         <form id="survey-form">
@@ -20,80 +20,92 @@
             </div>
 
             <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">Email Adderss</label>
                 <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="from-group">
+                <label for="phone number">phone number</label>
+                <input type="phone number" id="phone number" name="phone number" reguired placeholder="Enert your phone number">
             </div>
 
             <div class="form-group">
                 <label for="age">Age</label>
-                <input type="number" id="age" name="age" min="18" max="120" placeholder="Enter your age">
+                <input type="number" id="age" name="age" min="18" max="60" placeholder="Enter your age">
             </div>
             <div class="form-group">
-                <label for="satisfaction">Which option best describes your current role?</label>
+                <label for="satisfaction">Primary Interest</label>
                 <select id="satisfaction" name="satisfaction" required>
-                    <option value="">Select the current role</option>
-                    <option value="very-satisfied">Student</option>
-                    <option value="satisfied">Full Time job</option>
-                    <option value="neutral">Full Time Learner</option>
-                    <option value="dissatisfied">Prefer not to say</option>
-                    <option value="very-dissatisfied">Others</option>
+                    <option value=""></option>
+                    <option value="very-satisfied">Tourism</option>
+                    <option value="satisfied">Job Opportunity</option>
+                    <option value="neutral">African Traval</option>
+                    <option value="dissatisfied">Study Abroad</option>
+                    <option value="very-dissatisfied">Business Opportunities</option>
                 </select>
             </div>
             <div class="form-group">
-                <label>Would you recommend freeCodeCamp to a friend?</label>
+                <label>Prefferred African Destination</label>
                 <div class="radio-group">
                     <div class="radio-option">
                         <input type="radio" id="Definitely" name="source" value="social">
-                        <label for="social">Definitely</label>
+                        <label for="social">EAST Africa</label>
                     </div>
                     <div class="radio-option">
                         <input type="radio" id="Maybe" name="source" value="friend">
-                        <label for="friend">Maybe</label>
+                        <label for="friend">WEST Africa</label>
                     </div>
                     <div class="radio-option">
                         <input type="radio" id="Not sure" name="source" value="advertisement">
-                        <label for="advertisement">Not sure</label>
+                        <label for="advertisement">NORTH Africa</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="Not sure" name="source" value="advertisement">
+                        <label for="advertisement">SOUTH Africa</label>
                     </div>
                 </div>
             </div>
             <div class="form-group">
-                <label for="satisfaction">What is your favorite feature of freeCodeCamp?</label>
+                <label for="satisfaction">Purpose of Travel/Job interest</label>
                 <select id="satisfaction" name="satisfaction" required>
-                    <option value="">Select an option</option>
-                    <option value="very-satisfied">Challenges</option>
-                    <option value="satisfied">Projects</option>
-                    <option value="neutral">community</option>
-                    <option value="dissatisfied">Open source</option>
+                    <option value=""></option>
+                    <option value="very-satisfied">Working as a travel agent, tour guide, or hospitality professional.</option>
+                    <option value="satisfied">Curiosity about different cultures and lifestyles.</option>
+                    <option value="neutral">Passion for adventure and exploration.</option>
+                    <option value="dissatisfied">Desire for personal growth and development through travel.</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label>What would you like to see improved? (Check all that apply)</label>
+                <label>Which Class are you travaling through(Air plane)</label>
                 <div class="checkbox-group">
                     <div class="checkbox-option">
                         <input type="checkbox" id="feature1" name="features" value="feature1">
-                        <label for="feature1">User Interface</label>
+                        <label for="feature1">first class</label>
                     </div>
                     <div class="checkbox-option">
                         <input type="checkbox" id="feature2" name="features" value="feature2">
-                        <label for="feature2">Performance</label>
+                        <label for="feature2">Economy</label>
                     </div>
                     <div class="checkbox-option">
                         <input type="checkbox" id="feature3" name="features" value="feature3">
-                        <label for="feature3">Customer Support</label>
+                        <label for="feature3"> premium economy</label>
                     </div>
                     <div class="checkbox-option">
                         <input type="checkbox" id="feature4" name="features" value="feature4">
-                        <label for="feature4">Documentation</label>
+                        <label for="feature4">business</label>
                     </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <label for="comments">Additional Comments</label>
-                <textarea id="comments" name="comments" rows="4" placeholder="Share your thoughts with us"></textarea>
+                <label for="comments">Additional Connent</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Press Fill the Things That you need Privatery"></textarea>
             </div>
-
+            <p style="color: rgb(88, 88, 185);padding: 5px; position:left"> Fro more Information Press Contst us:<br>
+                Tel:0793094202<br>
+                Email:derrickmugisha169@gmail.com
+            </p>
+<br>
             <button type="submit">Submit Survey</button>
         </form>
     </div>
